@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\DELL\\OneDrive\\Desktop\\Blockchain_01\\HariHealthDataSecurity\\contracts\\HealthData.sol": {
+      "lastModificationDate": 1731850801198,
+      "contentHash": "96acf2ca5190a9b2899daa8f4c8e1c19",
+      "sourceName": "contracts/HealthData.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "HealthData"
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+# HariHealthDataSecurity Project
+
+## Overview
+
+The **HariHealthDataSecurity** project aims to provide a secure way to manage healthcare data using smart contracts on the Ethereum blockchain. This project implements a basic contract that allows patients to set and retrieve their healthcare records securely.
+
+## Project Structure
+
+
+## Steps Completed
+
+1. **Setup Environment**:
+   - Installed Node.js and npm.
+   - Created a new directory for the project named **`HariHealthDataSecurity`**.
+
+2. **Initialized Hardhat**:
+   - Created a `package.json` file using `npm init -y`.
+   - Installed Hardhat and its dependencies.
+
+3. **Created the Smart Contract**:
+   - Implemented the `HealthData` contract in `contracts/HealthData.sol` to manage healthcare records.
+
+4. Compile the smart contract:
+   npx hardhat compile
+
+4. **Deployment Script**:
+   - Created the `deploy.js` script to deploy the `HealthData` contract to the local Hardhat network.
+   npx hardhat run scripts/deploy.js --network localhost
+
+Record the address and update it to the App.js
+
+5. Running the Frontend
+  cd frontend
+npm start
+
+Project Directory 
+cd C:\Users\PC\HariHealthDataSecurity
